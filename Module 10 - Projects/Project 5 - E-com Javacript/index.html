@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Flash Shop</title>
+    <meta name="authro" description="Prakash Sakari">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="heading d-flex align-center fixed top-0 left-0">
+        <div class="heading-title-icon d-flex align-center">
+            <h1 class="heading-title">
+                <a class="link" href="/">Flash Shop</a>
+            </h1>
+        </div>
+        <div class="search-box-container relative">
+            <input class="search-box-input" placeholder="Search Products">
+            <span class="material-icons-outlined absolute top-0 left-0">
+                search
+                </span>
+        </div>
+        <nav class="navigation">
+            <ul class="list-non-bullet d-flex align-center gap">
+                <li class="list-item-inline">
+                    <a href="/" class="link cursor">
+                        <span class="nav-icon material-icons-outlined">
+                            favorite_border
+                            </span>
+                    </a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="./cart.html" class="link cursor">
+                        <span class="nav-icon material-icons-outlined">
+                            shopping_cart
+                            </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="products-page d-flex">
+        <aside class="side-bar">
+            <h3 class="heading-3">Filter</h3>
+            <div class="filter-container">
+                <h3 class="heading-3">Ratings</h3>
+                <div class="d-flex align-center gap">
+                    <input data-rating="4" id="rating-4" class="radio" type="radio" name="rating">
+                    <label data-rating="4" for="rating-4" class="label">4 stars & above</label>
+                </div>
+                <div class="d-flex align-center gap">
+                    <input data-rating="3" id="rating-3" class="radio" type="radio" name="rating">
+                    <label data-rating="3" for="rating-3" class="label">3 stars & above</label>
+                </div>
+                <div class="d-flex align-center gap">
+                    <input data-rating="2" id="rating-2" class="radio" type="radio" name="rating">
+                    <label data-rating="2" for="rating-2" class="label">2 stars & above</label>
+                </div>
+                <div class="d-flex align-center gap">
+                    <input data-rating="1" id="rating-1" class="radio" type="radio" name="rating">
+                    <label data-rating="1" for="rating-1" class="label">1 stars & above</label>
+                </div>
+            </div>
+        </aside>
+        <div class="product-container d-flex wrap gap" id="products"></div>
+    </div>
+    
+   <script type="module" src="./index.js"></script>
+</body>
+</html>
