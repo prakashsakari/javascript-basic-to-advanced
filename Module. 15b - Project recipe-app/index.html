@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Recipe App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="heading-1">
+            <a href="/">Recipe App</a>
+        </h1>
+        <div class="search-container">
+            <input class="input" placeholder="Search a Recipe">
+        </div>
+    </header>
+    <div class="main-container d-flex gap-lg">
+        <aside class="cuisine-filter d-flex d-flex-direction-column"></aside>
+        <main class="main d-flex wrap-items"></main>
+    </div>
+    <script type="module" src="index.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+</html>

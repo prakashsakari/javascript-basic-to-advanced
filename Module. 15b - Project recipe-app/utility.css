@@ -1,0 +1,244 @@
+/** DISPLAY */
+
+.d-block {
+  display: block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+/** DISPLAY FLEX */
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-direction-column {
+  flex-direction: column;
+}
+
+.place-items-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.align-self-start {
+  align-self: flex-start;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-self-center {
+  justify-self: center;
+}
+
+.justify-self-space-between {
+  justify-self: space-between;
+}
+
+.justify-self-space-around {
+  justify-self: space-around;
+}
+
+.justify-self-space-evenly {
+  justify-self: space-evenly;
+}
+
+.wrap-items {
+  flex-wrap: wrap;
+}
+
+.gap-ex-sm {
+  gap: 4px;
+}
+
+.gap-sm {
+  gap: 8px;
+}
+
+.gap-md {
+  gap: 1rem;
+}
+
+.gap-lg {
+  gap: 1.5rem;
+}
+
+/** DISPLAY GRID */
+
+.d-grid {
+  display: grid;
+}
+
+/** POSITION */
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+/** BORDER RADIUS */
+
+.br-radius-4px-sm {
+  border-radius: 4px;
+}
+
+.br-radius-8px-md {
+  border-radius: 8px;
+}
+
+.br-radius-16px-lg {
+  border-radius: 1rem;
+}
+
+.br-radius-32px-ex-lg {
+  border-radius: 2rem;
+}
+
+.border-rounded {
+  border-radius: 50%;
+}
+
+/** BUTTON */
+
+.button {
+  border: none;
+  background-color: transparent;
+}
+
+/** HEADINGS FONT */
+
+.heading-1 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.heading-2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.heading-3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.heading-4 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.heading-5 {
+  font-size: 8px;
+  line-height: 1rem;
+}
+
+/** TEXT FONTS SIZE */
+
+.fs-sm {
+  font-size: 10px;
+}
+
+.fs-md {
+  font-size: 1.25rem;
+}
+
+.fs-lg {
+  font-size: 1.5rem;
+}
+
+.fs-ex-lg {
+  font-size: 2rem;
+}
+
+/** IMAGES */
+
+.image-fit-contain {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.image-fit-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-pos-center {
+  object-position: center center;
+}
+
+.img-pos-lf-tp {
+  object-position: left top;
+}
+
+.img-pos-rg-tp {
+  object-position: right top;
+}
+
+.img-pos-lf-bm {
+  object-position: left bottom;
+}
+
+.img-pos-rg-bm {
+  object-position: right bottom;
+}
