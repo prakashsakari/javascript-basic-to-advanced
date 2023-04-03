@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 class="heading-1">Registration Form</h1>
+  <form class="form">
+    <div class="fn-container gutter-small">
+      <label class="d-flex direction-column gap">First Name
+        <input data-key="firstName" class="input" placeholder="prakash" />
+      </label>
+      <span data-error="fn-err" class="error-message">Name must only contain alphabets</span>
+      <span class="empty-field">*Please fill this field</span>
+    </div>
+
+    <div class="ln-container gutter-small">
+      <label class="d-flex direction-column gap">Last Name
+        <input data-key="lastName" class="input" placeholder="sakari" />
+      </label>
+      <span data-error="ln-err" class="error-message">Name must only contain alphabets</span>
+      <span class="empty-field">*Please fill this field</span>
+    </div>
+
+    <div class="email-container gutter-small">
+      <label class="d-flex direction-column gap">Email Id
+        <input data-key="email" type="email" class="input" placeholder="name@example.com" />
+      </label>
+      <span data-error="email-err" class="error-message">Invalid Email</span>
+      <span class="empty-field">*Please fill this field</span>
+    </div>
+
+    <div class="pwd-container gutter-small relative">
+      <label class="d-flex direction-column gap">Password
+        <input type="password" data-key="password" class="input " placeholder="**********" />
+        <button class="btn absolute right-0">
+          <span class="material-icons-outlined">
+            visibility
+          </span>
+        </button>
+      </label>
+      <ul data-error="pwd-err" class="error-message ul">
+        <li class="list">
+          Password must contain atleast 8 characters
+        </li>
+        <li class="list">
+          Password must contain atleast one lower case letter
+        </li>
+        <li class="list">
+          Password must contain atleast one upper case letter
+        </li>
+        <li class="list">Password must contain atleast one digit</li>
+        <li class="list">
+          Password must contain atleast one special character (!@#$%^&*)
+        </li>
+      </ul>
+      <span class="empty-field">*Please fill this field</span>
+    </div>
+    <button class="button btn-primary cursor">Create Account</button>
+  </form>
+  <script src="index.js"></script>
+</body>
+
+</html>
