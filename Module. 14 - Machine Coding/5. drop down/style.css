@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 1px solid black;
+  padding: 10px 1rem;
+  width: 300px;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.country-container {
+  width: 300px;
+  border: 1px solid black;
+  height: 200px;
+  overflow-y: auto;
+}
+
+.input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+.name {
+  font-size: 1.5rem;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

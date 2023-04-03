@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-container {
+  width: 100vw;
+  height: 350px;
+  position: relative;
+}
+
+.carousel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #fafafa;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+.btn-next {
+  top: 45%;
+  right: 2%;
+}
+
+.btn-prev {
+  top: 45%;
+  left: 2%;
+}

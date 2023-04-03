@@ -1,0 +1,20 @@
+.container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-container {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.hide {
+  display: none;
+}

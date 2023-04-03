@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-1 {
+  font-size: 3rem;
+}
+
+.para {
+  font-size: 3.5rem;
+}
+
+.btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  font-size: 2rem;
+}
+
+.button:hover {
+  cursor: pointer;
+}
