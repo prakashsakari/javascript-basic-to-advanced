@@ -1,2 +1,4 @@
-# javascript-basic-to-advanced
-Learn JavaScript Basic to Advanced
+# Javascript Basics to Advanced
+
+A complete step by step guide to learn Javascript.
+
