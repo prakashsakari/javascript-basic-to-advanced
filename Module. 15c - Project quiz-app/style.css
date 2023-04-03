@@ -1,0 +1,159 @@
+@import url("https://uilight.netlify.app/main.css");
+
+body {
+  background-color: #475569;
+}
+
+h1 {
+  color: #fafafa;
+  padding-top: 2rem;
+}
+
+.options-contianer .button.success {
+  background-color: green;
+}
+
+.options-contianer .button.error {
+  background-color: red;
+}
+
+.grid-container-two-col {
+  width: 90vw;
+  height: 70vh;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6rem;
+  margin-top: 4rem;
+  color: #fafafa;
+}
+
+.section-img-box {
+  width: 30vw;
+  height: 60vh;
+  justify-self: end;
+}
+
+.section-img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-rule-box {
+  color: #fafafa;
+}
+
+.rules {
+  color: #fafafa;
+}
+
+.rule-title {
+  text-decoration: underline;
+}
+
+.rules-list {
+  margin: 2rem 0;
+}
+
+.rule-point {
+  padding: 1rem 0.5rem;
+}
+
+.link-btn {
+  color: var(--text-color-primary);
+  text-decoration: none;
+  width: 100%;
+}
+
+.play-btn {
+  border: none;
+  background-color: #334155;
+  color: #fafafa;
+  padding: 8px 1rem;
+  font-size: 1.5rem;
+  border-radius: 4px;
+}
+
+.play-btn:hover {
+  opacity: 0.85;
+}
+
+.hide {
+  display: none;
+}
+
+.quiz {
+  background-color: #94a3b8;
+  color: #fafafa;
+  padding: 2rem;
+  width: 45vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.result {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: #cbd5e1;
+}
+
+.quiz-category {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.questions-container {
+  font-size: 1.5rem;
+  word-break: break-all;
+}
+
+.options-contianer .button {
+  background-color: #475569;
+  color: #fafafa;
+  border-radius: 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.cta {
+  font-size: 1.25rem;
+  font-weight: bold;
+  border: none;
+  padding: 10px 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.quit {
+  background-color: #cbd5e1;
+  font-weight: 600;
+}
+
+.next {
+  background-color: #334155;
+  color: #fafafa;
+  font-weight: 600;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.qns-count,
+.cur-score {
+  font-size: 1.25rem;
+}

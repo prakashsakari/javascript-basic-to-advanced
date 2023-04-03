@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="d-flex justify-center">Quiz App</h1>
+    <div class="grid-container-two-col rule-book">
+        <section class="section-img-box">
+          <img class="section-img" src="hero.svg" alt="rules" />
+        </section>
+        <section class="section-rule-box">
+          <div class="rules">
+            <h2 class="rule-title">Guidelines</h2>
+            <ul class="rules-list">
+              <li class="rule-point">
+                There are total 5 questions in each category.
+              </li>
+              <li class="rule-point">You can attempt each question only once.</li>
+              <li class="rule-point">
+                Each question carries one mark. No negative marking for wrong
+                answers.
+              </li>
+              <li class="rule-point">Question are Multiple Choice Questions.</li>
+              <li class="rule-point">
+                Don't plagarize. Try to answer on your own.
+              </li>
+              <li class="rule-point">You can take the quiz multiple times.</li>
+            </ul>
+            <button class="play-btn cursor">
+  
+                Let the game begin
+                <span role="img" aria-label="fire">
+                  🔥🔥
+                </span>
+            </button>
+          </div>
+        </section>
+      </div>
+      <div class="quiz hide d-flex direction-column gap">
+        <div class="quiz-container d-flex justify-center">
+            <span class="quiz-category"></span>
+        </div>
+        <div class="d-flex justify-space-between">
+          <span class="qns-count"></span>
+          <span class="cur-score"></span>
+        </div>
+        <div class="questions-container "></div>
+        <div class="options-contianer d-flex direction-column gap"></div>
+        <div class="cta-btns d-flex justify-center gap">
+            <button class="cta quit">Quit</button>
+            <button class="cta next">Next</button>
+        </div>
+      </div>
+      <div class="result hide">
+        Your Score: 9990
+      </div>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
