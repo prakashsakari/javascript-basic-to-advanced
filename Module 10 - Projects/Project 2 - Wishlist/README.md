@@ -1,2 +1,0 @@
-# wishlist
-Create a wishlist
