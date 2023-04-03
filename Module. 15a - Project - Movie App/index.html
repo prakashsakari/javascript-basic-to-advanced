@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prakash Sakari">
+    <meta name="desciption" content="Top 250 IMDB Movie List with search, rating and genere filter">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="heading-1">Movie App</h1>
+        <div class="options">
+            <div class="search-container">
+                <input class="input" placeholder="Search a Movie | Director | Actor" >
+            </div>
+            <div>
+                <select class="rating-select" id="rating-select">
+                    <option class="option" value="">Rating</option>
+                    <option class="option" value="7">7 & Above</option>
+                    <option class="option" value="8">8 & Above</option>
+                    <option class="option" value="8.5">8.5 & Above</option>
+                    <option class="option" value="9">9 & Above</option>
+                </select>
+            </div>
+            <div>
+                <select class="rating-select" id="genre-select">
+                    <option class="option" value="">Genre</option>
+                </select>
+            </div>
+        </div>
+        
+    </header>
+    <main class="main"></main>
+    <script type="module" src="index.js"></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+/* RESET CSS **/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #191919;
+  --card-bg: #064663;
+  --text-color-primary: #fafafa;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  padding: 2rem 5rem 1rem 6rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  background-color: var(--bg-color);
+}
+
+.heading-1 {
+  font-size: 3rem;
+  color: var(--text-color-primary);
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 10px;
+}
+
+.input {
+  background-color: transparent;
+  border: 2px solid var(--card-bg);
+  border-radius: 4px;
+  padding: 8px;
+  color: var(--text-color-primary);
+  font-size: 1.25rem;
+  width: 25rem;
+}
+
+.rating-select {
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 1.25rem;
+  border: 2px solid var(--card-bg);
+  color: var(--text-color-primary);
+}
+
+.option {
+  background-color: var(--bg-color);
+}
+
+.main {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  padding: 10rem 4rem 3rem 6rem;
+}
+
+.card {
+  width: 18rem;
+  border-radius: 4px;
+  background-color: var(--card-bg);
+}
+
+.card:hover {
+  scale: 1.1;
+  transition: scale 0.5s;
+}
+
+.card-image-container {
+  width: 100%;
+  height: 18rem;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: center center;
+}
+
+.movie-details {
+  margin: 10px 0;
+  color: var(--text-color-primary);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  font-size: 1.1rem;
+}
+
+.genre {
+  font-size: 0.875rem;
+}
+
+.ratings {
+  display: flex;
+  justify-content: space-between;
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
